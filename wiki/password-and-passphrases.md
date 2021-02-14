@@ -24,17 +24,21 @@ Having complex composition rules will make the passwords harder to remember and 
 ## Only change compromised passwords
 Passwords should only be changed if there are signs that it might be compromised. Having a password rotation policy might in some cases lead to worse security.
 
-The main reason to use password rotation is to reduce the window of opportunity for attackers. If they get a hold of a password it will only be for a limited amount of time before the password is invalid. This only solves the symptom and not the problem. How did the attacker get the password the first time and what stops them from getting the new one? In case of beliving a password has been compromised an investigation on how the password got compromised is needed and change the password when the system is secured.
+The main reason to use password rotation is to reduce the window of opportunity for attackers. If they get a hold of a password it will only be for a limited amount of time before the password is invalid. This only solves the symptom and not the problem. How did the attacker get the password the first time and what stops them from getting the new one? In case of believing a password has been compromised an investigation on how the password got compromised is needed and change the password when the system is secured.
 
 Being forced to often change the password also hinders users to choose secure passwords. Commonly user only bumps a number at the end of their password by one instead of using a new secure password.
 
 ## Screen passwords
-All new passwords should be checked against the password list like [Have I Been Pwned](https://haveibeenpwned.com/API/v3#SearchingPwnedPasswordsByRange)                                                                                     
+All new passwords should be checked against the password list like [Have I Been Pwned](https://haveibeenpwned.com/API/v3#SearchingPwnedPasswordsByRange)
+
 ## Password hints and security questions
-Password hints should not be used since that can give out information about a password that an attacker can use to figure out the password.                                                                                                  
+Password hints should not be used since they can give out information about a password that an attacker can use to figure out the password.
+
 ## Long passwords
-Long passwords shall be allowed so that the user can use long generated passwords. There should still be a limit on how long passwords can be. This to protect your system from attackers sending in passwords that are gigabytes in size and perform DOS attack that way.                                                                                                                                                                                                                    
+Long passwords shall be allowed so that the user can use long generated passwords. There should still be a limit on how long passwords can be. This to protect your system from attackers sending in passwords that are gigabytes in size and perform DOS attacks that way.
+
 ## Allowed characters
-All characters should be allowed. Everything from ASCII to special characters and emojis. By allowing all of the characters that are in the Unicode table the number of combinations that attackers we would need to use would increase. As side effect users that come from countries that do not use ASCII by standard, can use their passwords out of the box.                                                                                                                          
+All characters should be allowed. Everything from ASCII to special characters and emojis. By allowing all of the characters that are in the Unicode table the number of combinations that attackers we would need to use would increase. As side effect users that come from countries that do not use ASCII by standard, can use their passwords out of the box.
+
 ## Password manager
 Just do it!
